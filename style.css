@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    min-height: 95vh;
+    box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background: url(content/bg.png), linear-gradient(180deg, #3BD16E 0%, rgba(226, 255, 252, 0.60779) 63.26%, rgba(3, 225, 255, 0.38) 100%);;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+input {
+    width: 400px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+/* ------------------------------------------------------ */
+
+.container-small {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    text-align: center;
+    min-width: 80%;
+    margin: 0 30px;
+}
+
+.armenia {
+    margin-bottom: 73px;
+}
+
+/* ADAPTIV */
+
+@media (max-width: 900px) {
+    .container-small {
+        display: block;
+    }
+
+    .armenia {
+        margin-bottom: 30px;
+    }
+
+    .russia {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 610px) {
+    input {
+        width: 290px;
+        height: 50px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    img {
+        width: 53.33px;
+        height: 40px;
+    }
+
+    input {
+        width: 250px;
+        height: 50px;
+    }
+    
+}
+
+@media (max-width: 410px) {
+    input {
+        width: 200px;
+        height: 50px;
+    }
+    
+}
